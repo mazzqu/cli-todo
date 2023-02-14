@@ -4,7 +4,7 @@ For learning Golang purpose & neat line code.
 
 ### Build with
 
-Golang(1.17)
+Golang(1.19)
 
 ## Getting Started
 
