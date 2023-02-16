@@ -38,8 +38,23 @@ How to check list of data there :
 go run main.go -list
 ```
 
+how to change complete :
+
+```sh
+go run main.go -complete 1
+```
+
 How to test :
 
 ```sh
 go test -v
+```
+
+<br/>
+or
+
+<br/>
+
+```sh
+go test -v -run functionName
 ```
