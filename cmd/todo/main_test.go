@@ -33,6 +33,11 @@ func TestMain(m *testing.M) {
 	os.Exit(result)
 }
 
+
+/*
+	How to run sub test : go test -v -run TestTodoCLI
+ 	How to run only sub test : go test -v -run TestTodoCLI/AddNewTask
+ */
 func TestTodoCLI(t *testing.T) {
 	task := "test task number 1"
 	dir, err := os.Getwd()
